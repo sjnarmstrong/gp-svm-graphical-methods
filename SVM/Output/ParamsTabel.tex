@@ -1,0 +1,23 @@
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|l|l|l|l|l|}
+\hline
+\multirow{2}{*}{\textbf{Problem}}                                                              & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Function}}} & \multicolumn{4}{l|}{\textbf{Converged Parameters}} \\ \cline{3-6} 
+                                                                                               & \multicolumn{1}{c|}{}                                   & $d$       & $\gamma$       & $C_0$      & $C$      \\ \hline
+\multirow{4}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Versicolor\\ vs \\ Virginica\end{tabular}}} & Linear                        & -& -& -& 8.00 \\ \cline{2-6} 
+                                                                                               & Polynomial                                              & 2.00& 1.18& 40.91& 0.06\\ \cline{2-6} 
+                                                                                               & \begin{tabular}[c]{@{}l@{}}Radial\\ basis\end{tabular}   & -& 0.62& -& 4.00\\ \cline{2-6} 
+                                                                                               & Sigmoid                                                  & -& 0.24& 0.13& 64.00\\ \hline
+\multirow{4}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Versicolor\\ vs \\ Setosa\end{tabular}}}    & Linear                         & -& -& -& 0.12\\ \cline{2-6} 
+                                                                                               & Polynomial                                               & 2.00& 0.25& 0.02& 4.00\\ \cline{2-6} 
+                                                                                               & \begin{tabular}[c]{@{}l@{}}Radial\\ basis\end{tabular}  & -& 0.25& -& 0.25\\ \cline{2-6} 
+                                                                                               & Sigmoid                                                  & -& 0.09& 0.09& 1.00\\ \hline
+\multirow{4}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Virginica\\ vs \\ Setosa\end{tabular}}}     & Linear                         & -& -& -& 0.12\\ \cline{2-6} 
+                                                                                               & Polynomial                                               & 2.00& 0.28& 0.05& 1.00\\ \cline{2-6} 
+                                                                                               & \begin{tabular}[c]{@{}l@{}}Radial\\ basis\end{tabular}   & -& 0.25& -& 0.25\\ \cline{2-6} 
+                                                                                               & Sigmoid                                                  & -& 0.09& 0.09& 1.00\\ \hline
+\end{tabular}
+\caption{Table showing the parameters with the lowest validation errors}
+\label{tbl:PB:LowVErr}
+\end{table}

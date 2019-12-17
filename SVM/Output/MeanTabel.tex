@@ -1,0 +1,23 @@
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|l|l|l|l|l|}
+\hline
+\multirow{2}{*}{\textbf{Problem}}                                                              & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{$C$}}} & \multicolumn{4}{c|}{\textbf{Mean accuracies}}    \\ \cline{3-6} 
+                                                                                               & \multicolumn{1}{c|}{}                              & Linear & Polynomial & Radial basis & Sigmoid \\ \hline
+\multirow{4}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Versicolor\\ vs \\ Virginica\end{tabular}}}   & 0.03&47.40&93.40&47.40&46.75\\ \cline{2-6} 
+																														   & 0.25&93.10&93.50&93.60&47.40\\ \cline{2-6} 
+																														   & 1.00&94.50&93.10&93.40&91.55\\ \cline{2-6} 
+																														   & 64.00&93.65&92.65&92.95&93.85\\ \hline
+\multirow{4}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Versicolor\\ vs \\ Setosa\end{tabular}}}      & 0.03&85.35&99.80&77.75&53.35\\ \cline{2-6} 
+																														   & 0.25&100.00&99.45&100.00&100.00\\ \cline{2-6} 
+																														   & 1.00&100.00&99.50&100.00&100.00\\ \cline{2-6} 
+																														   & 64.00&100.00&100.00&100.00&100.00\\ \hline
+\multirow{4}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Virginica\\ vs \\ Setosa\end{tabular}}}       & 0.03&92.95&99.30&78.40&53.05\\ \cline{2-6} 
+																														   & 0.25&100.00&98.65&100.00&99.65\\ \cline{2-6} 
+																														   & 1.00&100.00&99.05&100.00&100.00\\ \cline{2-6} 
+																														   & 64.00&100.00&100.00&100.00&100.00\\ \hline
+\end{tabular}
+\caption{Mean accuracies of the various parameters}
+\label{tbl:PB:mean}
+\end{table}

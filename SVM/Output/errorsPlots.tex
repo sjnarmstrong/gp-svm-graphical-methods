@@ -1,0 +1,348 @@
+   
+\begin{figure}[H]
+
+\begin{subfigure}[b]{0.49\textwidth}
+\begin{tikzpicture}
+\begin{axis}
+[
+ytick={1, 2, 3, 4},
+yticklabels={Linear, Polynomial, Radial basis, Sigmoid},
+width=0.8\textwidth
+]
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=95.0,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=92.5,
+    	upper quartile=95.0,
+    	lower quartile=90.0,
+    	upper whisker=97.5,
+    	lower whisker=87.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=92.5,
+    	upper quartile=95.0,
+    	lower quartile=92.5,
+    	upper whisker=100.0,
+    	lower whisker=87.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=92.5,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Worst value for $C$}
+\end{subfigure}
+\begin{subfigure}[b]{0.49\textwidth}
+\begin{tikzpicture}
+\begin{axis}
+[
+ytick={1, 2, 3, 4},
+yticklabels={Linear, Polynomial, Radial basis, Sigmoid},
+width=0.8\textwidth
+]
+
+    \addplot+[
+    boxplot prepared={
+    	median=92.5,
+    	upper quartile=95.0,
+    	lower quartile=90.625,
+    	upper whisker=100.0,
+    	lower whisker=85.0
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=92.5,
+    	upper quartile=95.0,
+    	lower quartile=90.625,
+    	upper whisker=100.0,
+    	lower whisker=85.0
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=95.0,
+    	upper quartile=95.0,
+    	lower quartile=92.5,
+    	upper whisker=97.5,
+    	lower whisker=82.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=92.5,
+    	upper quartile=95.0,
+    	lower quartile=90.625,
+    	upper whisker=100.0,
+    	lower whisker=87.5
+    },
+    ] coordinates {};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Best value for $C$}
+\end{subfigure}
+\caption{Summary of accuracies achieved for Versicolor vs Virginica}
+\label{fig:PB:Versicolor_vs_Virginica}
+\end{figure}
+
+
+
+
+   
+\begin{figure}[H]
+
+\begin{subfigure}[b]{0.49\textwidth}
+\begin{tikzpicture}
+\begin{axis}
+[
+ytick={1, 2, 3, 4},
+yticklabels={Linear, Polynomial, Radial basis, Sigmoid},
+width=0.8\textwidth
+]
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=100.0,
+    	lower whisker=37.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=100.0,
+    	upper quartile=100.0,
+    	lower quartile=100.0,
+    	upper whisker=100.0,
+    	lower whisker=100.0
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=100.0,
+    	lower whisker=37.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=100.0,
+    	lower whisker=37.5
+    },
+    ] coordinates {};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Worst value for $C$}
+\end{subfigure}
+\begin{subfigure}[b]{0.49\textwidth}
+\begin{tikzpicture}
+\begin{axis}
+[
+ytick={1, 2, 3, 4},
+yticklabels={Linear, Polynomial, Radial basis, Sigmoid},
+width=0.8\textwidth
+]
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=100.0,
+    	lower whisker=37.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=100.0,
+    	upper quartile=100.0,
+    	lower quartile=100.0,
+    	upper whisker=100.0,
+    	lower whisker=90.0
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=100.0,
+    	lower whisker=37.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=42.5,
+    	upper whisker=100.0,
+    	lower whisker=37.5
+    },
+    ] coordinates {};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Best value for $C$}
+\end{subfigure}
+\caption{Summary of accuracies achieved for Versicolor vs Setosa}
+\label{fig:PB:Versicolor_vs_Setosa}
+\end{figure}
+
+
+
+
+   
+\begin{figure}[H]
+
+\begin{subfigure}[b]{0.49\textwidth}
+\begin{tikzpicture}
+\begin{axis}
+[
+ytick={1, 2, 3, 4},
+yticklabels={Linear, Polynomial, Radial basis, Sigmoid},
+width=0.8\textwidth
+]
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=45.0,
+    	upper whisker=100.0,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=100.0,
+    	upper quartile=100.0,
+    	lower quartile=100.0,
+    	upper whisker=100.0,
+    	lower whisker=100.0
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=45.0,
+    	upper whisker=100.0,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=45.0,
+    	upper whisker=100.0,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Worst value for $C$}
+\end{subfigure}
+\begin{subfigure}[b]{0.49\textwidth}
+\begin{tikzpicture}
+\begin{axis}
+[
+ytick={1, 2, 3, 4},
+yticklabels={Linear, Polynomial, Radial basis, Sigmoid},
+width=0.8\textwidth
+]
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=45.0,
+    	upper whisker=100.0,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=100.0,
+    	upper quartile=100.0,
+    	lower quartile=98.125,
+    	upper whisker=100.0,
+    	lower whisker=95.0
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=45.0,
+    	upper whisker=100.0,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+    \addplot+[
+    boxplot prepared={
+    	median=45.0,
+    	upper quartile=47.5,
+    	lower quartile=45.0,
+    	upper whisker=100.0,
+    	lower whisker=32.5
+    },
+    ] coordinates {};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Best value for $C$}
+\end{subfigure}
+\caption{Summary of accuracies achieved for Virginica vs Setosa}
+\label{fig:PB:Virginica_vs_Setosa}
+\end{figure}
+
+
+
+
